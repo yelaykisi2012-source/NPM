@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env app.cjs",
+    "test": "node --check app.js"
+  },
+  "engines": {
+    "node": ">=22.9.0"
+  },
+  "keywords": [],
+  "author": "Asadbek Karimov",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "mongodb": "^7.8.0",
+    "mongoose": "^9.11.4"
+  }
+}
